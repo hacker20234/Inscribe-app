@@ -24,3 +24,10 @@ programid: 0xfdaf86b31109b2c4013429ed95911730d4c29d4bf219b6d12e6bf1c6e65c020a
 ```
 idea: https://idea.gear-tech.io/programs/0xfdaf86b31109b2c4013429ed95911730d4c29d4bf219b6d12e6bf1c6e65c020a?node=wss%3A%2F%2Ftestnet.vara-network.io
 ```
+
+``` 
+npm i
+推荐版本 node v 
+测试提交
+
+```
