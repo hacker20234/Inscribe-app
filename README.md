@@ -33,7 +33,7 @@ git clone https://github.com/hacker20234/Inscribe-app.git
 
 cd chakra-ui-inscribe-dapp
 
-在主目录下创建   .env   文件
+在与src平级目录下创建   .env   文件
 文件内容(复制粘贴)    REACT_APP_NODE_ADDRESS=wss://testnet.vara-network.io
 保存
 
