@@ -25,8 +25,10 @@ programid: 0xfdaf86b31109b2c4013429ed95911730d4c29d4bf219b6d12e6bf1c6e65c020a
 idea: https://idea.gear-tech.io/programs/0xfdaf86b31109b2c4013429ed95911730d4c29d4bf219b6d12e6bf1c6e65c020a?node=wss%3A%2F%2Ftestnet.vara-network.io
 ```
 
+# 技术栈
+react + ts + chakra-ui组件库
 
-## 运行
+## 运行 
 ``` 
 拉取代码
 git clone https://github.com/hacker20234/Inscribe-app.git
@@ -53,8 +55,12 @@ baize336699@gmail.com
 w4028328
 ```
 
-## 需要完成
-前端参考网站 https://www.brc-20.io/
+## 前端参考网站
+https://www.brc-20.io/
+
+## 组件库
+https://chakra-ui.com/docs/components/avatar
+
 ## 做功能 
 打开网站 https://idea.gear-tech.io/state/full/0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24d?node=wss%3A%2F%2Ftestnet.vara.network
 点击 program 
