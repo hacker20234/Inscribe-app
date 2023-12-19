@@ -3,10 +3,16 @@
 .home-button {
   border: 0;
   border-radius: 14px;
-  width: 200px;
+  width: 180px;
   height: 45px;
   font-size: 14px;
   font-weight: 600;
+  background-color: azure;
+}
+
+.home-button.active {
+  background-color: blue;
+  color: white;
 }
 
 .home-button:hover {

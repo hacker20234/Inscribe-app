@@ -53,6 +53,7 @@ git push
 
 baize336699@gmail.com
 w4028328
+发邮件问要验证码
 ```
 
 ## 前端参考网站
@@ -62,8 +63,19 @@ https://www.brc-20.io/
 https://chakra-ui.com/docs/components/avatar
 
 ## 做功能 
+谷歌浏览器右上角点击三个点
+点击扩展程序
+点击访问chrome应用商店 
+右上角搜索 subwallet
+安装后选择import an account
+选择import from seed phrase
+选择import account
+第一步设置密码
+第二步依次输入 round amount runway busy silk soda kind lab history tell property lounge 这十二个单词 下一步下一步
+
 打开网站 https://idea.gear-tech.io/state/full/0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24d?node=wss%3A%2F%2Ftestnet.vara.network
-点击 program 
+点击右上角 connect 选择subwallet
+点击左侧 program 
 点击右侧 my program
 搜索 inscribe 或者搜索 0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24d
 进到 inscribe 里 
@@ -71,10 +83,3 @@ https://chakra-ui.com/docs/components/avatar
 点击 read full statu
 做下拉框前三个功能 数据写死 不管图标
 有时间再写 send message 的下拉框的几个功能
-
-谷歌浏览器右上角点击三个点
-点击扩展程序
-点击访问chrome应用商店 
-右上角搜索 subwallet
-安装后第一步设置密码
-第二步依次输入 round amount runway busy silk soda kind lab history tell property lounge 这十二个单词 下一步下一步
