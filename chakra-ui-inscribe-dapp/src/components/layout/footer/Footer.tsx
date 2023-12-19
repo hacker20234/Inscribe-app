@@ -1,6 +1,6 @@
-import { Socials } from './socials';
-import { Copyright } from './copyright';
-import styles from './Footer.module.scss';
+import { Socials } from "./socials";
+import { Copyright } from "./copyright";
+import styles from "./Footer.module.scss";
 
 function Footer() {
   return (
