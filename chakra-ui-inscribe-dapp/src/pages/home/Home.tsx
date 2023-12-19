@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { Table, Thead, Tbody, Tfoot, Tr, Th, Td, TableCaption, TableContainer } from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from "@chakra-ui/react";
 import "./style.css";
 
 function Home() {
@@ -13,6 +13,7 @@ function Home() {
 
   return (
     <TableContainer>
+      <div className="Table-head-font">Recent Inscriptions</div>
       <Table variant="simple">
         {/* 表格底部描述 */}
         <TableCaption>Imperial to metric conversion factors</TableCaption>
