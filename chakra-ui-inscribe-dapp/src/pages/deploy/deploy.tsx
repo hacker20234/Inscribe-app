@@ -5,6 +5,8 @@ import {
   FormLabel,
   Input,
   Select,
+  Wrap,
+  WrapItem,
   Modal,
   ModalOverlay,
   ModalContent,
@@ -91,12 +93,16 @@ function Deploy() {
             <Input placeholder="password" />
           </ModalBody>
           <ModalFooter justifyContent="center">
-            <Button colorScheme="green" variant="ghost" size="lg" borderRadius="full">
-              Submit
-            </Button>
-            <Button size="lg" borderRadius="full" mr={3} onClick={onClose}>
+            <Button size="lg" borderRadius="full" width="200px" mr={3} onClick={onClose}>
               Cancel
             </Button>
+            <Wrap spacing={4}>
+              <WrapItem>
+                <Button size="lg" borderRadius="full" colorScheme="whatsapp" width="200px">
+                  Submit
+                </Button>
+              </WrapItem>
+            </Wrap>
           </ModalFooter>
         </ModalContent>
       </Modal>
