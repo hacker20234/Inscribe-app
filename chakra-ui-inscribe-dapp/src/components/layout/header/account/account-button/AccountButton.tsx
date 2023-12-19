@@ -11,9 +11,10 @@ type Props = {
   block?: boolean;
 };
 
-function AccountButton({ address, name, onClick, ...rest }: Props) {
+// eslint-disable-next-line
+function AccountButton({ address, name, onClick, isActive, block }: Props) {
   return (
-    <Button backgroundColor="green.600" borderRadius="30px" onClick={onClick} {...rest}>
+    <Button backgroundColor="green.600" borderRadius="30px" onClick={onClick}>
       <Identicon value={address} className={buttonStyles.icon} theme="polkadot" size={28} />
       {name}
     </Button>
