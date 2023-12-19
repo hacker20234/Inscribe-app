@@ -1,0 +1,29 @@
+/* styles.css */
+
+.home-button {
+  border: 0;
+  border-radius: 14px;
+  width: 200px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-button:hover {
+  border-color: purple;
+}
+
+.wallet-button {
+  border: 2px solid black;
+  border-radius: 14px;
+  width: 200px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 鼠标移入 边框和字体变色 */
+.wallet-button:hover {  
+  border-color: purple;
+  color:aquamarine;
+}

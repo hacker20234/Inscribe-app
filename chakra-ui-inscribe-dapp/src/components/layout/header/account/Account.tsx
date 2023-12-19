@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useAccount } from "@gear-js/react-hooks";
 import { useNavigate } from "react-router-dom";
 import { AccountsModal } from "./accounts-modal";
 import { Wallet } from "./wallet";
+import "./styles.css";
 
 function Account() {
   const { account, accounts } = useAccount();
@@ -28,55 +29,21 @@ function Account() {
       ) : (
         <div>
           {/* 头部中间每个功能 */}
-          <button
-            type="button"
-            onClick={goToHome}
-            style={{
-              border: "0px solid black",
-              borderRadius: "14px",
-              width: "200px",
-              height: "45px",
-              fontSize: "14px",
-              fontWeight: "600",
-            }}
-          >
+          <button type="button" onClick={goToHome} className="home-button">
             首页
           </button>
-          <span
-            style={{
-              marginRight: "100px",
-            }}
-          >
-            132
-          </span>
-          <span
-            style={{
-              marginRight: "100px",
-            }}
-          >
-            132
-          </span>
-          <span
-            style={{
-              marginRight: "100px",
-            }}
-          >
-            132
-          </span>
+          <button type="button" onClick={goToHome} className="home-button">
+            首页
+          </button>
+          <button type="button" onClick={goToHome} className="home-button">
+            首页
+          </button>
+          <button type="button" onClick={goToHome} className="home-button">
+            首页
+          </button>
 
           {/* 头部右侧链接钱包 */}
-          <button
-            type="button"
-            onClick={openModal}
-            style={{
-              border: "1px solid black",
-              borderRadius: "14px",
-              width: "200px",
-              height: "45px",
-              fontSize: "14px",
-              fontWeight: "600",
-            }}
-          >
+          <button type="button" onClick={openModal} className="wallet-button">
             Connect Your Wallet
           </button>
         </div>

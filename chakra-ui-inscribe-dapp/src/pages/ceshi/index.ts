@@ -1,3 +1,3 @@
-import { ceshi } from './ceshi';
+import { Ceshi } from './ceshi';
 
-export { ceshi };
+export { Ceshi };
