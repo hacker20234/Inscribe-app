@@ -12,13 +12,15 @@ function QueryInscrible() {
   }, []);
 
   const handleClick = () => {
+    // const inputValue = inputRef.current!.value;
+    // console.log(inputValue); // eslint-disable-next-line no-console
     // 点击按钮 获取input数据以后 搜索 然后将返回的数据显示在下方表格
   };
 
   return (
     <TableContainer>
       <InputGroup className="InputGroup" size="md">
-        <Input pr="4.5rem" placeholder="Enter search content" />
+        <Input pr="4.5rem" placeholder="Enter search content" ref={inputRef} />
         <InputRightElement width="4.5rem">
           <Button colorScheme="purple" h="1.75rem" size="sm" onClick={handleClick}>
             search
