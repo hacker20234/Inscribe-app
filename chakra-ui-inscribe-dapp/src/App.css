@@ -11,7 +11,8 @@
 }
 
 main {
-  background: white;
+  /* 主体颜色 */
+  background: white; 
   background-size: 200% 200%;
   animation: gradientAnimation 5s linear infinite;
 }
