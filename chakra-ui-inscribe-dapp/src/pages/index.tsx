@@ -2,11 +2,15 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./home";
 import { Main } from "./main";
 import { Deploy } from "./deploy";
+import { Mint } from "./mint";
+import { QueryInscrible } from "./queryInscrible";
 
 const routes = [
   { path: "/", Page: Home },
   { path: "/main", Page: Main },
   { path: "/deploy", Page: Deploy },
+  { path: "/mint", Page: Mint },
+  { path: "/queryInscrible", Page: QueryInscrible },
 ];
 
 function Routing() {

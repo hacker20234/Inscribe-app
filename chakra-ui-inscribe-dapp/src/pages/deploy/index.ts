@@ -1,3 +1,3 @@
-import { Deploy } from './deploy';
+import { Deploy } from './Deploy';
 
 export { Deploy };
