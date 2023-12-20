@@ -18,7 +18,7 @@ function QueryInscrible() {
   return (
     <TableContainer>
       <InputGroup className="InputGroup" size="md">
-        <Input pr="4.5rem" placeholder="Enter password" />
+        <Input pr="4.5rem" placeholder="Enter search content" />
         <InputRightElement width="4.5rem">
           <Button colorScheme="purple" h="1.75rem" size="sm" onClick={handleClick}>
             search
