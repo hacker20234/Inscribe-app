@@ -15,7 +15,7 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 
-function Mint() {
+function Burn() {
   const [isOpen, setIsOpen] = useState(false);
 
   const onClose = () => setIsOpen(false);
@@ -27,6 +27,12 @@ function Mint() {
         <FormControl isRequired>
           <FormLabel>inscribe_id</FormLabel>
           <Input placeholder="inscribe_id" w="500px" />
+          <FormLabel>from</FormLabel>
+          <Input placeholder="from" w="500px" />
+          <FormLabel>to</FormLabel>
+          <Input placeholder="to" w="500px" />
+          <FormLabel>amt</FormLabel>
+          <Input placeholder="amt" w="500px" />
         </FormControl>
       </div>
       <div style={{ margin: "25px", textAlign: "center" }}>
@@ -64,4 +70,4 @@ function Mint() {
   );
 }
 
-export { Mint };
+export { Burn };

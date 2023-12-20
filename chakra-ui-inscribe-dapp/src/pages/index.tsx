@@ -3,6 +3,7 @@ import { Home } from "./home";
 import { Main } from "./main";
 import { Deploy } from "./deploy";
 import { Mint } from "./mint";
+import { Burn } from "./burn";
 import { QueryInscrible } from "./queryInscrible";
 
 const routes = [
@@ -10,6 +11,7 @@ const routes = [
   { path: "/main", Page: Main },
   { path: "/deploy", Page: Deploy },
   { path: "/mint", Page: Mint },
+  { path: "/burn", Page: Burn },
   { path: "/queryInscrible", Page: QueryInscrible },
 ];
 

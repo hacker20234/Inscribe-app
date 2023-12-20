@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Input } from "@chakra-ui/react";
+import { InputGroup, InputRightElement, Button, Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Input } from "@chakra-ui/react";
 import "./style.css";
 
 function QueryInscrible() {
@@ -11,9 +11,20 @@ function QueryInscrible() {
     }
   }, []);
 
+  const handleClick = () => {
+    // 点击按钮 获取input数据以后 搜索 然后将返回的数据显示在下方表格
+  };
+
   return (
     <TableContainer>
-      <Input placeholder="Basic usage" />
+      <InputGroup className="InputGroup" size="md">
+        <Input pr="4.5rem" placeholder="Enter password" />
+        <InputRightElement width="4.5rem">
+          <Button colorScheme="purple" h="1.75rem" size="sm" onClick={handleClick}>
+            search
+          </Button>
+        </InputRightElement>
+      </InputGroup>
       <div className="Table-head-font">Recent Inscriptions</div>
       <Table variant="simple">
         {/* 表格底部描述 */}

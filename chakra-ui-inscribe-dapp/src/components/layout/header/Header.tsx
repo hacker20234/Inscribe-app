@@ -13,8 +13,8 @@ function Header({ isAccountVisible }: Props) {
   const handleLogoClick = () => {
     toast({
       position: "top",
-      title: "",
-      description: "今日的晴空万里，也不及你一抹笑意",
+      title: "Today's clear sky is not as lovely as your smile",
+      description: "今日的晴空万里，也不及你一抹笑意 ",
       status: "success",
       duration: 3000,
       isClosable: true,
