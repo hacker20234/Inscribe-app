@@ -83,3 +83,11 @@ https://chakra-ui.com/docs/components/avatar
 点击 read full statu
 做下拉框前三个功能 数据写死 不管图标
 有时间再写 send message 的下拉框的几个功能
+
+
+farmer:
+.env文件内容更新
+REACT_APP_NODE_ADDRESS=wss://testnet.vara-network.io
+REACT_APP_IPFS_ADDRESS=https://ipfs.gear-tech.io/api/v0
+REACT_APP_IPFS_GATEWAY_ADDRESS=https://ipfs-gw.gear-tech.io/ipfs
+REACT_APP_CONTRACT_ADDRESS=0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24d
