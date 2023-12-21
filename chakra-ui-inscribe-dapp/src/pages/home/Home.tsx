@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from "react";
+import { useState } from "react";
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from "@chakra-ui/react";
 import "./style.css";
 import { ProgramMetadata } from "@gear-js/api";
@@ -134,6 +134,7 @@ function Home() {
         Inscrs.map((item: any) => alldatanfts.push(item[1]));
         setAllnfts(alldatanfts);
       })
+      // eslint-disable-next-line
       .catch(({ message }: Error) => console.log(message));
   };
 
