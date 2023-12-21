@@ -14,7 +14,7 @@ function Header({ isAccountVisible }: Props) {
     toast({
       position: "top",
       title: "Today's clear sky is not as lovely as your smile",
-      description: "今日的晴空万里，也不及你一抹笑意 ",
+      description: "今日的晴空万里，不及你一抹笑意 ",
       status: "success",
       duration: 3000,
       isClosable: true,
