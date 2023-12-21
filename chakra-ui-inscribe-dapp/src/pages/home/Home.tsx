@@ -185,8 +185,8 @@ function Home() {
 
       <Card>
         <CardBody>
+          <div className="Table-head-font">Recent Inscriptions</div>
           <TableContainer>
-            <div className="Table-head-font">Recent Inscriptions</div>
             <Table variant="simple">
               <TableCaption>Imperial to metric conversion factors</TableCaption>
               <Thead>

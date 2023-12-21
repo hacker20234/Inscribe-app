@@ -27,7 +27,7 @@ function Copyright() {
     <div>
       <small className={styles.copyright}>
         All rights reserved by{" "}
-        <Button variant="link" onClick={handleButtonClick} color="blue">
+        <Button variant="link" onClick={handleButtonClick} color="purple">
           Inscribe
         </Button>
         , {year} hackathon
@@ -39,8 +39,9 @@ function Copyright() {
           <ModalCloseButton />
           <ModalBody>
             <p>captain -- differs (SmartContract Developer)</p>
-            <p>team member -- XXXX (Web3 Developer)</p>
-            <p>team member -- baobei (Front-end development)</p>
+            <p>team member -- baize336699 (Web3 Frontend Developer)</p>
+            <p>team member -- xgocn (Web3 Frontend Developer)</p>
+            <p>team member -- DAO UI Design Studio (UI / ARTIST)</p>
           </ModalBody>
           <ModalFooter>{/* 可选的底部内容 */}</ModalFooter>
         </ModalContent>
