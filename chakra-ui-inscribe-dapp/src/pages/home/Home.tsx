@@ -167,6 +167,7 @@ function Home() {
       <Tbody>
           {allnfts.map((elemento: any) => (
             <InfoNFT
+              key={elemento.inscribeIndex}
               inscribeType={elemento.inscribeType}
               inscribeIndex={elemento.inscribeIndex}
               deployer={elemento.deployer}
