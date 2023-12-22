@@ -3,6 +3,10 @@ import instagramIcon from "assets/images/socials/instagram.png";
 import telegramIcon from "assets/images/socials/telegram.png";
 import twitterIcon from "assets/images/socials/twitter.png";
 import whatsappIcon from "assets/images/socials/whatsapp.png";
+import qqIcon from "assets/images/socials/qq.png";
+import weixinIcon from "assets/images/socials/weixin.png";
+
+
 import styles from "./Socials.module.scss";
 
 const socials = [
@@ -11,6 +15,9 @@ const socials = [
   { href: "https://twitter.com/gear_techs2", icon: telegramIcon },
   { href: "https://twitter.com/gear_techs3", icon: twitterIcon },
   { href: "https://twitter.com/gear_techs4", icon: whatsappIcon },
+  { href: "https://twitter.com/gear_techs4", icon: qqIcon },
+  { href: "https://twitter.com/gear_techs4", icon: weixinIcon },
+
 ];
 
 export function Socials() {
