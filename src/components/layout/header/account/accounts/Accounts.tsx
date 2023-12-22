@@ -1,9 +1,9 @@
-import type { InjectedAccountWithMeta } from '@polkadot/extension-inject/types';
-import { useAccount } from '@gear-js/react-hooks';
-import { isLoggedIn } from 'utils';
-import { LOCAL_STORAGE } from 'consts';
-import { AccountButton } from '../account-button';
-import styles from './Accounts.module.scss';
+import type { InjectedAccountWithMeta } from "@polkadot/extension-inject/types";
+import { useAccount } from "@gear-js/react-hooks";
+import { isLoggedIn } from "utils";
+import { LOCAL_STORAGE } from "../../../../../utils/consts";
+import { AccountButton } from "../account-button";
+import styles from "./Accounts.module.scss";
 
 type Props = {
   list: InjectedAccountWithMeta[];
@@ -36,10 +36,7 @@ function Accounts({ list, onChange }: Props) {
   return isAnyAccount ? (
     <ul className={styles.list}>{getAccounts()}</ul>
   ) : (
-    <p>
-      No accounts found. Please open Polkadot extension, create a new account or import existing one and reload the
-      page.
-    </p>
+    <p>No accounts found. Please open Polkadot extension, create a new account or import existing one and reload the page.</p>
   );
 }
 
