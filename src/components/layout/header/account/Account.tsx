@@ -32,10 +32,6 @@ function Account() {
         navigate("/Burn");
       } else if (button === "QueryInscrible") {
         navigate("/QueryInscrible");
-      } else if (button === "QueryInscribleByActorId") {
-        navigate("/QueryInscribleByActorId");
-      } else if (button === "QueryInscribleById") {
-        navigate("/QueryInscribleById");
       }
     },
     [navigate]
@@ -47,36 +43,36 @@ function Account() {
 
   return (
     <>
+      <div>
+        <button type="button" onClick={() => goToHome("home")} className={selectedButton === "home" ? "home-button active" : "home-button"}>
+          home
+        </button>
+        <button type="button" onClick={() => goToHome("deploy")} className={selectedButton === "deploy" ? "home-button active" : "home-button"}>
+          Deploy
+        </button>
+        <button type="button" onClick={() => goToHome("Mint")} className={selectedButton === "Mint" ? "home-button active" : "home-button"}>
+          Mint
+        </button>
+        <button type="button" onClick={() => goToHome("Burn")} className={selectedButton === "Burn" ? "home-button active" : "home-button"}>
+          Burn
+        </button>
+        <button
+          type="button"
+          onClick={() => goToHome("QueryInscrible")}
+          className={selectedButton === "QueryInscrible" ? "home-button active" : "home-button"}
+        >
+          QueryInscrible
+        </button>
+      </div>
+
       {account ? (
         <Wallet balance={account.balance} address={account.address} name={account.meta.name} onClick={openModal} />
       ) : (
-        <div>
-          <button type="button" onClick={() => goToHome("home")} className={selectedButton === "home" ? "home-button active" : "home-button"}>
-            home
-          </button>
-          <button type="button" onClick={() => goToHome("deploy")} className={selectedButton === "deploy" ? "home-button active" : "home-button"}>
-            Deploy
-          </button>
-          <button type="button" onClick={() => goToHome("Mint")} className={selectedButton === "Mint" ? "home-button active" : "home-button"}>
-            Mint
-          </button>
-          <button type="button" onClick={() => goToHome("Burn")} className={selectedButton === "Burn" ? "home-button active" : "home-button"}>
-            Burn
-          </button>
-          <button
-            type="button"
-            onClick={() => goToHome("QueryInscrible")}
-            className={selectedButton === "QueryInscrible" ? "home-button active" : "home-button"}
-          >
-            QueryInscrible
-          </button>
-
-          {/* 头部右侧链接钱包 */}
-          <button type="button" onClick={openModal} className="wallet-button">
-            Connect Your Wallet
-          </button>
-        </div>
+        <button type="button" onClick={openModal} className="wallet-button">
+          Connect Your Wallet
+        </button>
       )}
+
       {isModalOpen && <AccountsModal accounts={accounts} close={closeModal} />}
     </>
   );
