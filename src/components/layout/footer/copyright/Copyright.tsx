@@ -30,7 +30,10 @@ function Copyright() {
         <Button variant="link" onClick={handleButtonClick} color="purple">
           Inscribe
         </Button>
-        , {year} hackathon
+        <a href="https://github.com/hacker20234/hackathon-2023-winter" target="_blank" rel="noreferrer">
+          {" "}
+          , {year} hackathon
+        </a>
       </small>
       <Modal isOpen={showModal} onClose={handleCloseModal}>
         <ModalOverlay />
