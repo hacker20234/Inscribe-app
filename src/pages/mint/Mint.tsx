@@ -30,7 +30,7 @@ function Mint() {
         </FormControl>
       </div>
       <div style={{ margin: "25px", textAlign: "center" }}>
-        <Button onClick={onOpen} colorScheme="blue">
+        <Button onClick={onOpen} colorScheme="purple">
           Button
         </Button>
       </div>
