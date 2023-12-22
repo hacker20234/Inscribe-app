@@ -55,11 +55,6 @@ npm run start
 
 git push
 
-遇到权限问题登录账号
-
-baize336699@gmail.com
-w4028328
-发邮件问要验证码
 ```
 
 ## 前端参考网站
@@ -83,12 +78,10 @@ https://chakra-ui.com/docs/components/avatar
 点击右上角 connect 选择subwallet
 点击左侧 program 
 点击右侧 my program
-搜索 inscribe 或者搜索 0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24d
+搜索 inscribe 或者搜索 0xc18584c6b11838f2f62233f030dc8fe649b4b212fd35aaabf79ed0e5be11c24
 进到 inscribe 里 
 点击右上角 read statu
 点击 read full statu
-做下拉框前三个功能 数据写死 不管图标
-有时间再写 send message 的下拉框的几个功能
 
 
 farmer:
