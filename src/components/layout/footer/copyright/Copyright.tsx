@@ -41,10 +41,10 @@ function Copyright() {
           <ModalHeader>Team information</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <p>captain -- differs (SmartContract Developer)</p>
-            <p>team member -- baize336699 (Web3 Frontend Developer)</p>
-            <p>team member -- xgocn (Web3 Frontend Developer)</p>
-            <p>team member -- DAO UI Design Studio (UI / ARTIST)</p>
+            <p>captain -- <a href="https://github.com/differs"  target="_blank" rel="noreferrer noopener" >differs</a>(SmartContract Developer)</p>
+            <p>team member -- <a href="https://github.com/baize336699" className="custom-link" target="_blank"rel="noreferrer noopener" >baize336699 </a>(Web3 Frontend Developer)</p>
+            <p>team member -- <a href="https://github.com/xgocn"  className="custom-link" target="_blank" rel="noreferrer noopener">xgocn </a>(Web3 Frontend Developer)</p>
+            <p>team member -- <a href="web3-crypto-designer" className="custom-link" target="_blank" >DAO UI Design </a>(UI / ARTIST)</p>
           </ModalBody>
           <ModalFooter>{/* 可选的底部内容 */}</ModalFooter>
         </ModalContent>

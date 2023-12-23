@@ -18,8 +18,7 @@ function QueryInscrible() {
   };
 
   return (
-    
-    <TableContainer style={{ overflowY: "scroll" }}>
+    <TableContainer>
       <InputGroup className="InputGroup" size="md">
         <Input pr="4.5rem" placeholder="Enter search content" ref={inputRef} />
         <InputRightElement width="4.5rem">
@@ -28,8 +27,7 @@ function QueryInscrible() {
           </Button>
         </InputRightElement>
       </InputGroup>
-      <div className="Table-head-font" >Recent Inscriptions</div>
-     
+      <div className="Table-head-font">Recent Inscriptions</div>
       <Table variant="simple">
         {/* 表格底部描述 */}
         <TableCaption>Imperial to metric conversion factors</TableCaption>
@@ -42,7 +40,7 @@ function QueryInscrible() {
             <Th textAlign="center">tick</Th>
             <Th textAlign="center">maxSupply</Th>
             <Th textAlign="center">totalSupply</Th>
-            <Th isNumeric textAlign="center">amtPerMint</Th>
+            <Th textAlign="center">amtPerMint</Th>
             <Th textAlign="center"> slogan</Th>
             <Th textAlign="center">media</Th>
             <Th textAlign="center">mediaLink</Th>
@@ -131,7 +129,7 @@ function QueryInscrible() {
             <Td textAlign="center">VEIN</Td>
             <Td textAlign="center">1,000,000,000,000</Td>
             <Td textAlign="center">0</Td>
-            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center" >1,000</Td>
             <Td textAlign="center">WE DO THE BEST</Td>
             <Td textAlign="center">Twitter</Td>
             <Td textAlign="center">https://x.com/vein</Td>
@@ -148,7 +146,7 @@ function QueryInscrible() {
             <Td textAlign="center">VEIN</Td>
             <Td textAlign="center">1,000,000,000,000</Td>
             <Td textAlign="center">0</Td>
-            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center" >1,000</Td>
             <Td textAlign="center">WE DO THE BEST</Td>
             <Td textAlign="center">Twitter</Td>
             <Td textAlign="center">https://x.com/vein</Td>
@@ -165,7 +163,7 @@ function QueryInscrible() {
             <Td textAlign="center">VEIN</Td>
             <Td textAlign="center">1,000,000,000,000</Td>
             <Td textAlign="center">0</Td>
-            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">1,000</Td>
             <Td textAlign="center">WE DO THE BEST</Td>
             <Td textAlign="center">Twitter</Td>
             <Td textAlign="center">https://x.com/vein</Td>
@@ -182,7 +180,7 @@ function QueryInscrible() {
             <Td textAlign="center">VEIN</Td>
             <Td textAlign="center">1,000,000,000,000</Td>
             <Td textAlign="center">0</Td>
-            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center" >1,000</Td>
             <Td textAlign="center">WE DO THE BEST</Td>
             <Td textAlign="center">Twitter</Td>
             <Td textAlign="center">https://x.com/vein</Td>
@@ -199,7 +197,7 @@ function QueryInscrible() {
             <Td textAlign="center">VEIN</Td>
             <Td textAlign="center">1,000,000,000,000</Td>
             <Td textAlign="center">0</Td>
-            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center" >1,000</Td>
             <Td textAlign="center">WE DO THE BEST</Td>
             <Td textAlign="center">Twitter</Td>
             <Td textAlign="center">https://x.com/vein</Td>

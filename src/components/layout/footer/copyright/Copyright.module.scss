@@ -3,3 +3,21 @@
 .copyright {
   color: $textColorSecondary;
 }
+p {
+  a {
+    
+      display: inline-block;
+      padding: 3px 10px; /* 设置内边距 */
+      border: 1px solid #805ad5; /* 设置边框样式 */
+      background-color: #805ad5; /* 设置背景颜色 */
+      margin: 3px; /* 设置外边距，增加链接之间的间距 */
+      text-decoration: none; /* 移除下划线 */
+      border-radius:20px;
+      color: rgb(255, 255, 255); /* 设置链接的颜色 */
+
+      &:hover {
+        color: rgb(0, 0, 0); /* 设置链接的悬停颜色 */
+      }
+    }
+  }
+

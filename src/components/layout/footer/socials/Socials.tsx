@@ -21,7 +21,7 @@ const socials = [
 ];
 export function Socials() {
   const handleQQClick = () => {
-    window.location.href = 'https://wpa.qq.com/msgrd?v=3&uin=your_QQ_number&site=qq&menu=yes';
+    window.open ('https://wpa.qq.com/msgrd?v=3&uin=2665702300&site=qq&menu=yes','_blank') 
   };
   const getItems = () =>
     socials.map(({ href, icon }) => (
