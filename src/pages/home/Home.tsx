@@ -41,21 +41,21 @@ function InfoNFT({
 }: NFTInfo) {
   return (
     <Tr>
-      <Td>{inscribeType}</Td>
-      <Td>{inscribeIndex}</Td>
-      <Td>{deployer}</Td>
-      <Td>{tick}</Td>
-      <Td>{maxSupply}</Td>
-      <Td>{totalSupply}</Td>
-      <Td>{amtPerMint}</Td>
-      <Td>{slogan}</Td>
-      <Td>{media}</Td>
-      <Td>{mediaLink}</Td>
-      <Td>{verify}</Td>
-      <Td>{icon}</Td>
-      <Td>{frame}</Td>
-      <Td>{decimals}</Td>
-      <Td>{inscribeState}</Td>
+      <Td textAlign="center">{inscribeType}</Td>
+      <Td textAlign="center">{inscribeIndex}</Td>
+      <Td textAlign="center">{deployer}</Td>
+      <Td textAlign="center">{tick}</Td>
+      <Td textAlign="center">{maxSupply}</Td>
+      <Td textAlign="center">{totalSupply}</Td>
+      <Td textAlign="center">{amtPerMint}</Td>
+      <Td textAlign="center">{slogan}</Td>
+      <Td textAlign="center">{media}</Td>
+      <Td textAlign="center">{mediaLink}</Td>
+      <Td textAlign="center">{verify}</Td>
+      <Td textAlign="center">{icon}</Td>
+      <Td textAlign="center">{frame}</Td>
+      <Td textAlign="center">{decimals}</Td>
+      <Td textAlign="center">{inscribeState}</Td>
     </Tr>
   );
 }
@@ -149,21 +149,21 @@ function Home() {
               <TableCaption>Imperial to metric conversion factors</TableCaption>
               <Thead>
                 <Tr>
-                  <Th>inscribeType</Th>
-                  <Th>inscribeIndex</Th>
-                  <Th>deployer</Th>
-                  <Th>tick</Th>
-                  <Th>maxSupply</Th>
-                  <Th>totalSupply</Th>
-                  <Th isNumeric>amtPerMint</Th>
-                  <Th>slogan</Th>
-                  <Th>media</Th>
-                  <Th>mediaLink</Th>
-                  <Th>verify</Th>
-                  <Th>icon</Th>
-                  <Th>frame</Th>
-                  <Th>decimals</Th>
-                  <Th>inscribeState</Th>
+                  <Th textAlign="center">inscribeType</Th>
+                  <Th textAlign="center">inscribeIndex</Th>
+                  <Th textAlign="center">deployer</Th>
+                  <Th textAlign="center">tick</Th>
+                  <Th textAlign="center">maxSupply</Th>
+                  <Th textAlign="center">totalSupply</Th>
+                  <Th textAlign="center" isNumeric>amtPerMint</Th>
+                  <Th textAlign="center">slogan</Th>
+                  <Th textAlign="center">media</Th>
+                  <Th textAlign="center">mediaLink</Th>
+                  <Th textAlign="center">verify</Th>
+                  <Th textAlign="center">icon</Th>
+                  <Th textAlign="center">frame</Th>
+                  <Th textAlign="center">decimals</Th>
+                  <Th textAlign="center">inscribeState</Th>
                 </Tr>
               </Thead>
 

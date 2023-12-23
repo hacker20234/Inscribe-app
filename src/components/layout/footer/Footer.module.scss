@@ -5,4 +5,14 @@
   justify-content: space-between;
   padding: 35px 0;
   border-top: 1px solid $lineColor;
+
+ 
+
+  margin-top: auto; /* 将footer推到页面底部 */
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 保证内容撑满整个页面 */
+}
+

@@ -25,7 +25,7 @@ function Account() {
       if (button === "home") {
         navigate("/");
       } else if (button === "deploy") {
-        navigate("/deploy");
+        navigate("/Deploy");
       } else if (button === "Mint") {
         navigate("/Mint");
       } else if (button === "Burn") {

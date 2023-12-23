@@ -18,7 +18,8 @@ function QueryInscrible() {
   };
 
   return (
-    <TableContainer>
+    
+    <TableContainer style={{ overflowY: "scroll" }}>
       <InputGroup className="InputGroup" size="md">
         <Input pr="4.5rem" placeholder="Enter search content" ref={inputRef} />
         <InputRightElement width="4.5rem">
@@ -27,185 +28,186 @@ function QueryInscrible() {
           </Button>
         </InputRightElement>
       </InputGroup>
-      <div className="Table-head-font">Recent Inscriptions</div>
+      <div className="Table-head-font" >Recent Inscriptions</div>
+     
       <Table variant="simple">
         {/* 表格底部描述 */}
         <TableCaption>Imperial to metric conversion factors</TableCaption>
         {/* 表头字段 */}
         <Thead>
           <Tr>
-            <Th>inscribeType</Th>
-            <Th>inscribeIndex</Th>
-            <Th>deployer</Th>
-            <Th>tick</Th>
-            <Th>maxSupply</Th>
-            <Th>totalSupply</Th>
-            <Th isNumeric>amtPerMint</Th>
-            <Th>slogan</Th>
-            <Th>media</Th>
-            <Th>mediaLink</Th>
-            <Th>verify</Th>
-            <Th>icon</Th>
-            <Th>frame</Th>
-            <Th>decimals</Th>
-            <Th>inscribeState</Th>
+            <Th textAlign="center">inscribeType</Th>
+            <Th textAlign="center"> inscribeIndex</Th>
+            <Th textAlign="center">deployer</Th>
+            <Th textAlign="center">tick</Th>
+            <Th textAlign="center">maxSupply</Th>
+            <Th textAlign="center">totalSupply</Th>
+            <Th isNumeric textAlign="center">amtPerMint</Th>
+            <Th textAlign="center"> slogan</Th>
+            <Th textAlign="center">media</Th>
+            <Th textAlign="center">mediaLink</Th>
+            <Th textAlign="center">verify</Th>
+            <Th textAlign="center">icon</Th>
+            <Th textAlign="center">frame</Th>
+            <Th textAlign="center">decimals</Th>
+            <Th textAlign="center">inscribeState</Th>
           </Tr>
         </Thead>
 
         {/* 表格主体数据 */}
         <Tbody>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center" >Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" >1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" >1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" >1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" >1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
           <Tr>
-            <Td>Organization</Td>
-            <Td>1</Td>
-            <Td>0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
-            <Td>VEIN</Td>
-            <Td>1,000,000,000,000</Td>
-            <Td>0</Td>
-            <Td isNumeric>1,000</Td>
-            <Td>WE DO THE BEST</Td>
-            <Td>Twitter</Td>
-            <Td>https://x.com/vein</Td>
-            <Td>None</Td>
-            <Td>https://ipfs.io/icon</Td>
-            <Td>https://ipfs.io/frame</Td>
-            <Td>0</Td>
-            <Td>MintStart</Td>
+            <Td textAlign="center">Organization</Td>
+            <Td textAlign="center">1</Td>
+            <Td textAlign="center">0x84e7195c2a5b52620190f9303897e74676be2781e308fd8176c87037e9402065</Td>
+            <Td textAlign="center">VEIN</Td>
+            <Td textAlign="center">1,000,000,000,000</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center" isNumeric>1,000</Td>
+            <Td textAlign="center">WE DO THE BEST</Td>
+            <Td textAlign="center">Twitter</Td>
+            <Td textAlign="center">https://x.com/vein</Td>
+            <Td textAlign="center">None</Td>
+            <Td textAlign="center">https://ipfs.io/icon</Td>
+            <Td textAlign="center">https://ipfs.io/frame</Td>
+            <Td textAlign="center">0</Td>
+            <Td textAlign="center">MintStart</Td>
           </Tr>
         </Tbody>
       </Table>

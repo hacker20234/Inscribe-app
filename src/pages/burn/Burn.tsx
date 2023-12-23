@@ -22,8 +22,9 @@ function Burn() {
   const onOpen = () => setIsOpen(true);
 
   return (
-    <div>
+    <div >
       <div style={{ display: "flex" }}>
+      <div style={{ textAlign: "center" ,margin: "0 auto"}}>
         <FormControl isRequired>
           <FormLabel>inscribe_id</FormLabel>
           <Input placeholder="inscribe_id" w="500px" />
@@ -34,6 +35,7 @@ function Burn() {
           <FormLabel>amt</FormLabel>
           <Input placeholder="amt" w="500px" />
         </FormControl>
+      </div>
       </div>
       <div style={{ margin: "25px", textAlign: "center" }}>
         <Button onClick={onOpen} colorScheme="purple">

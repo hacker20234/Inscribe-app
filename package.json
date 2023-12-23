@@ -17,6 +17,7 @@
     "@polkadot/util": "12.6.2",
     "@polkadot/util-crypto": "^12.2.2",
     "@polkadot/wasm-crypto": "7.2.1",
+    "@polkadot/x-textdecoder": "^12.3.2",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "13.5.0",

@@ -23,11 +23,11 @@ function Deploy() {
   const onOpen = () => setIsOpen(true);
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <div style={{ display: "flex" }}>
-        <div style={{ marginRight: "20px" }}>
+        <div style={{ margin: "0 auto" }}>
           <FormControl isRequired>
-            <FormLabel>inscribe_index</FormLabel>
+            <FormLabel> inscribe_index</FormLabel>
             <Input placeholder="inscribe_index" w="500px" />
             <FormLabel>deployer</FormLabel>
             <Input placeholder="deployer" w="500px" />
@@ -43,7 +43,7 @@ function Deploy() {
             <Input placeholder="slogan" w="500px" />
           </FormControl>
         </div>
-        <div>
+        <div  style={{ margin: "0 auto" }}>
           <FormControl isRequired>
             <FormLabel>media</FormLabel>
             <Select placeholder="Select media" w="500px">

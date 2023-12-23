@@ -2,7 +2,11 @@
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 15px;
+    margin: 0 auto; /* 将表格水平居中 */
+    text-align: center; /* 将表格内容居中 */
+    
 }
 .InputGroup{
   margin-bottom: 25PX;
 }
+
