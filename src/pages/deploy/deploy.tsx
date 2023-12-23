@@ -76,7 +76,7 @@ function Deploy() {
         </div>
       </div>
       <div style={{ margin: "25px", textAlign: "center" }}>
-        <Button onClick={onOpen} colorScheme="purple">
+        <Button borderRadius="20px" onClick={onOpen} colorScheme="purple">
           Button
         </Button>
       </div>

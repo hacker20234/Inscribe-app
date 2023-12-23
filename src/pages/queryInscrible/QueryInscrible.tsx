@@ -22,7 +22,7 @@ function QueryInscrible() {
       <InputGroup className="InputGroup" size="md">
         <Input pr="4.5rem" placeholder="Enter search content" ref={inputRef} />
         <InputRightElement width="4.5rem">
-          <Button colorScheme="purple" h="1.75rem" size="sm" onClick={handleClick}>
+          <Button borderRadius="20px" colorScheme="purple" h="1.75rem" size="sm" onClick={handleClick}>
             search
           </Button>
         </InputRightElement>
