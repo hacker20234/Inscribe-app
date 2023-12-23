@@ -18,7 +18,7 @@ function QueryInscrible() {
   };
 
   return (
-    <TableContainer>
+    <TableContainer className="chard-body">
       <InputGroup className="InputGroup" size="md">
         <Input pr="4.5rem" placeholder="Enter search content" ref={inputRef} />
         <InputRightElement width="4.5rem">

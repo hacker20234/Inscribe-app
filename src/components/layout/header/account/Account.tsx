@@ -44,6 +44,7 @@ function Account() {
   return (
     <>
       <div>
+
         <button type="button" onClick={() => goToHome("home")} className={selectedButton === "home" ? "home-button active" : "home-button"}>
           home
         </button>

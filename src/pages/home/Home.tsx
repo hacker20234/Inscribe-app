@@ -116,7 +116,7 @@ function Home() {
   getMyNFT();
 
   return (
-    <div>
+    <div className="chard-body">
       <Card className="Card-head">
         <CardBody>
           <Text className="About-us">About us</Text>

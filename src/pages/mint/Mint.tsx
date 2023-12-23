@@ -22,7 +22,7 @@ function Mint() {
   const onOpen = () => setIsOpen(true);
 
   return (
-    <div >
+    <div  className="chard-body">
       <div style={{ display: "flex" }}>
       <div style={{ textAlign: "center" ,margin: "0 auto"}}>
         <FormControl isRequired>

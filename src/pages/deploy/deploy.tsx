@@ -23,7 +23,7 @@ function Deploy() {
   const onOpen = () => setIsOpen(true);
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div className="chard-body" style={{ textAlign: "center" }}>
       <div style={{ display: "flex" }}>
         <div style={{ margin: "0 auto" }}>
           <FormControl isRequired>
